@@ -1,0 +1,31 @@
+<!-- Bootstrap 4.0 template -->
+<!DOCTYPE html>
+<html lang="en" data-ng-app="mainApp">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      
+  </head>
+  <body>
+    <div ng-view></div>
+
+    <!-- jQuery first, then Bootstrap JS, then Angular, then other dependencies. -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    
+    <!-- After plugins comes the app-->
+    <script src="app/system/app.js"></script>
+    <script src="app/system/routing.js"></script>
+    <script src="app/areas/login/login.js"></script>
+    <script src="app/areas/home/home.js"></script>
+
+  </body>
+</html>

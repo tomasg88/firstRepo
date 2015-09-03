@@ -1,0 +1,24 @@
+{
+  "name": "firstRepo",
+  "version": "1.0.0",
+  "description": "app de prueba, npm, bower y git",
+  "main": "index.js",
+  "scripts": {
+	"start": "http-server -a localhost -p 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomasg88/firstRepo"
+  },
+  "keywords": [
+    "bootstrap",
+    "angular"
+  ],
+  "author": "yo",
+  "license": "casa",
+  "bugs": {
+    "url": "https://github.com/tomasg88/firstRepo/issues"
+  },
+  "homepage": "https://github.com/tomasg88/firstRepo"
+}

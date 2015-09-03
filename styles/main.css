@@ -1,0 +1,10 @@
+/* La clase container centra todo lo que tiene dentro. 
+Le agregamos: 
+V1
+    .- margen debajo para los siguientes elementos no esten pegados 
+    .- que use todo el ancho */
+
+.container {
+    padding-bottom: 2em;
+    max-width: 100%;
+}
